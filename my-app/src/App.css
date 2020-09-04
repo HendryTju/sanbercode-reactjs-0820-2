@@ -1,0 +1,27 @@
+#header-buah {
+  text-align: center;
+}
+
+#table-buah {
+  border-collapse: collapse;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#table-buah td {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+#table-buah tr {
+  background-color: darkorange;
+}
+
+#table-buah th {
+  text-align: center;
+  background-color: darkgray;
+  padding: 10px;
+  border: 1px solid grey;
+  color: white;
+}
