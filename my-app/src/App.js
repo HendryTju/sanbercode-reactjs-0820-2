@@ -6,7 +6,10 @@ import "./App.css";
 // import Timer from './Tugas-11/Timer';
 // import DaftarBuah from './Tugas-12/DaftarBuah';
 // import DaftarBuah from './Tugas-13/DaftarBuah';
-import DaftarBuah from "./Tugas-14/DaftarBuah";
+// import DaftarBuah from "./Tugas-14/DaftarBuah";
+import Routes from "./Tugas-15/Routes";
+import Nav from "./Tugas-15/Nav";
+import { ThemeProvider } from "./Tugas-15/ThemeContext";
 
 function App() {
   return (
@@ -14,7 +17,15 @@ function App() {
       {/* <FormBuah/>
       <DaftarBuah/>
       <Timer start={5}/> */}
-      <DaftarBuah />
+      {/* <DaftarBuah /> */}
+      <Router>
+        <ThemeProvider>
+          <Nav />
+          <section>
+            <Routes />
+          </section>
+        </ThemeProvider>
+      </Router>
     </>
   );
 }
