@@ -1,19 +1,21 @@
 import React from "react";
+// import logo from './logo.svg';
 import "./App.css";
-// import Clock from "./Tugas-11/clock.jsx";
-// import FormBuah from "./Tugas-12/formeditbuah.jsx";
-// import DaftarBuah from "./Tugas-13/DaftarBuah.jsx";
-import BuahIndex from "./Tugas-14/BuahIndex";
-
-// Create react app based on Quiz
-// Use the same inline styling, because just need to change inside app.js
+// import FormBuah from './Tugas-9/FormBuah';
+// import DaftarBuah from './Tugas-10/DaftarBuah';
+// import Timer from './Tugas-11/Timer';
+// import DaftarBuah from './Tugas-12/DaftarBuah';
+// import DaftarBuah from './Tugas-13/DaftarBuah';
+import DaftarBuah from "./Tugas-14/DaftarBuah";
 
 function App() {
   return (
-    <div>
-      {/* <DaftarBuah /> */}
-      <BuahIndex />
-    </div>
+    <>
+      {/* <FormBuah/>
+      <DaftarBuah/>
+      <Timer start={5}/> */}
+      <DaftarBuah />
+    </>
   );
 }
 
